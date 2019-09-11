@@ -14,20 +14,20 @@ print('Lab Exercise 02 \n')
 # class = 'SI 506'
 # course name = 'SI 506'
 # $course_name = 'SI 506'
-# course_name = 'SI 506'
+course_name = 'SI 506'
 
 # Next, append the text ": Programming I" to the value of the variable
 # selected above using the appropriate operator. Write code on next line.
-
+course_name = 'SI 506' + ":Programming I"
 
 # Next write a print() statement that prints the variable value to the
 # screen. Write code on next line.
-
+print(course_name)
 
 # Next determine the number of characters of your new string value using
 # the appropriate builtin function. Assign the value to the variable
 # num_chars (replace default value of 0):
-num_chars = 0
+num_chars = len(course_name)
 
 # Note use of the built-in str() function to format num_char_chunks as a string.
 print(''.join(['num_chars=', str(num_chars), '\n']))
